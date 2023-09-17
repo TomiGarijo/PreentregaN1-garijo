@@ -1,7 +1,7 @@
 import React from 'react'
-import ItemList from './ItemList'
+import ItemDetail from './ItemDetail'
 
-const ItemListContainer = () => {
+const ItemDetailContainer = () => {
   const productos = [
     {id: 1,name: "Producto Nª1", price: 25, stock: 999, category: "A" },
     {id: 2,name: "Producto Nª2", price: 25, stock: 999, category: "A" },
@@ -32,9 +32,9 @@ const ItemListContainer = () => {
   return (
     <>
      <h1>Bienvenidos a WoW Classic Market</h1><br />
-     <ItemList productos={productos}/>
+     <ItemDetail productos={productos}/>
     </>
   )
 }
 
-export default ItemListContainer;
+export default ItemDetailContainer;

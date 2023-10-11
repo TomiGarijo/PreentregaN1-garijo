@@ -1,4 +1,4 @@
-import { ButtonGroup, Button, IconButton, Divider } from "@chakra-ui/react"
+import { ButtonGroup, Button, IconButton } from "@chakra-ui/react"
 import { AddIcon, MinusIcon } from "@chakra-ui/icons"
 import { useState } from "react"
 

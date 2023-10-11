@@ -56,13 +56,13 @@ const Cart = () => {
         <>
           <Center p={'16'}>
             <Heading size='xl'>
-              Your cart is empty!
+              Carrito vacío...
             </Heading>
           </Center>
           <Center>
             <Link to='/'>
               <Button size='lg'>
-                Return to store
+                Volver a la Tienda
               </Button>
             </Link>
           </Center>

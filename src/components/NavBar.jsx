@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
     return (
         <>
-            <Flex>
+            <Flex backgroundColor="rgb(255, 255, 188)" boxShadow="1px 0px 1px black"  >
                 <Box p='4'>
                     <Link to={"/"}>
                     <img src="https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt59abd70988bc4003/601b14cf3689c30bf1492608/logo_realms_classic_na.png?auto=webp" alt="" width="160px" height="90px" />

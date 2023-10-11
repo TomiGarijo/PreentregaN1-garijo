@@ -9,10 +9,12 @@ const ItemList = ({productos}) => {
         {productos.map((p)=>{
                 return (
                     <Item
+                    key={p.id}
                     id = {p.id}
                     name = {p.name}
                     price = {p.price}
-                    stock = {p.stock} 
+                    stock = {p.stock}
+                    img = {p.img}
                     />
                 )
             })

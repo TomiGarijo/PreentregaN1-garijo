@@ -1,6 +1,6 @@
 # Tienda Virtual
 
-Esta es un proyecto de pagina web realizado con React utilizando componentes de Chakra.UI. 
+Este es un proyecto de pagina web realizado con React utilizando componentes de Chakra.UI. 
 
 Esta app te permite visualizar una tienda web de productos relacionados con WoW Classic. Desde la pagina principial tenes acceso a los productos para comprar. 
 
